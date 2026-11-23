@@ -14,6 +14,7 @@
 header{
     background-color: rgb(192, 190, 190);
     position: fixed;
+    z-index: 100;
     width: 100vw;
 }
 
@@ -371,6 +372,7 @@ nav a:hover{
 .benefit{
     max-width: 1600px;
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -390,16 +392,17 @@ nav a:hover{
     background-color: yellow;
 }
 
-.benefit-box{
+.benefit-boxs{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     align-items: left;
     justify-content: center;
     margin-top: 40px;
+    margin-bottom: 60px;
 }
 
-.box{
+.boxs{
     width: 390px;
     height: 200px;
     background-color: rgb(196, 194, 194);
@@ -412,14 +415,1040 @@ nav a:hover{
     line-height: 2;
 }
 
-.box p{
+.boxs p{
     line-height: normal;
 }
 
-.box i{
+.boxs i{
     margin-right: 10px;
 }
 
+.introduction{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;text-align: center;
+    margin-bottom: 60px;
+}
+
+.intro{
+    width: 500px;
+    height: 210px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 2;
+}
+
+.intro p {
+    text-align: justify;
+    line-height: normal;
+}
+
+.uncle{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+.uncle img{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.uncle span{
+    font-weight: bold;
+    font-size: 16px;
+}
 /*////////////////////////////////////////////////
                 BENEFIT ENDS
+///////////////////////////////////////////////// */
+
+/*////////////////////////////////////////////////
+                TEMPLATES STARTS
+///////////////////////////////////////////////// */
+
+.templates{
+    width: 100%;
+    height: auto;
+    background-color: #111827;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.template-content{
+    width: 70vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.template-content h1{
+    color: white;
+    font-size:3em;
+}
+
+.template-content p{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.template-content button{
+    width: 197px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: #0066FF;
+    color: white;
+    border: none;
+}
+
+.template-content button:hover{
+    color: #0066FF;
+    background-color: white;
+    transition: 0.2s ease-in;
+}
+
+.template-main{
+    margin: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*////////////////////////////////////////////////
+                TEMPLATES ENDS
+///////////////////////////////////////////////// */
+
+/*////////////////////////////////////////////////
+                INTRGRATION STARTS
+///////////////////////////////////////////////// */
+
+.intregration{
+    width: 95% ;
+    height: auto;
+    background-color: #EEF1F7;
+    border-radius: 15px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.intregration-content{
+    width: 30vw;
+    height: auto;
+}
+.intregration-content button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: #E8F4FC;
+    color: #0066FF;
+}
+
+.intregration-content h1{
+    font-size: 3em;
+    margin: 30px 0;
+}
+
+.intregration-content p{
+    line-height: 2;
+}
+
+#p{
+    line-height: normal;
+    margin: 20px 0;
+}
+
+.intre-pic img{
+    width: 40vw ;
+    height: 45vh;
+}
+
+/*////////////////////////////////////////////////
+                INTRGRATION ENDS
+///////////////////////////////////////////////// */
+
+/*////////////////////////////////////////////////
+                FEATURES STARTS
+///////////////////////////////////////////////// */
+
+.features{
+    width: 100% ;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.feature-box{
+    width: 300px;
+    height: 240px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 0 20px;
+    line-height: 2;
+    border-radius: 10px;
+}
+
+.feature-box p{
+    line-height: normal;
+}
+
+.features p span{
+    text-decoration: underline;
+
+}
+/*////////////////////////////////////////////////
+                FEATURES ENDS
+///////////////////////////////////////////////// */
+
+/*////////////////////////////////////////////////
+                VIDEO STARTS
+///////////////////////////////////////////////// */
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.blue {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #111827;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+
+.video-content {
+    flex: 1 1 50%;
+    color: white;
+}
+
+.video-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.video-content p {
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.video-content img {
+    display: block;
+    width: 90px;             
+    height: auto;
+    margin-top: 10px;
+}
+
+.v-video {
+    flex: 1 1 50%;
+    max-width: 508px;
+}
+
+.v-video img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 508 / 296;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/*////////////////////////////////////////////////
+                VIDEO ENDS
+///////////////////////////////////////////////// */
+
+/*////////////////////////////////////////////////
+                REVIEWS STARTS
+///////////////////////////////////////////////// */
+
+.reviews{
+    width: 100% ;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+}
+
+.review-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.review-box{
+    width: 300px;
+    height: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 15px 20px;
+    line-height: 3;
+    border-radius: 10px;
+}
+
+.review-box p{
+    line-height: normal;
+}
+
+.google{
+    padding-top: 40px;
+}
+
+/*////////////////////////////////////////////////
+                REVIEWS ENDS
+///////////////////////////////////////////////// */
+
+/*////////////////////////////////////////////////
+                BANNER1 STARTS
+///////////////////////////////////////////////// */
+
+.banner1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    background-color: #fff;
+}
+
+.banner1-pic {
+    flex: 1 1 50%;
+}
+
+.banner1-pic img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;              
+}
+
+.banner1-content {
+    flex: 1 1 50%;
+}
+
+.banner1-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #E9DDFF;
+    color: #6B2CF5;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.banner1-content h1 {
+    font-size: 2.6em;
+    line-height: 1.2;
+    font-weight: 800;
+    margin: 20px 0 30px;
+}
+
+.banner1-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.banner1-list li {
+    display: flex;
+    align-items: flex-start;   /* tick stays at the top if text wraps */
+    gap: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.banner1-list i {
+    margin-top: 5px;
+    flex-shrink: 0;
+}
+
+/*////////////////////////////////////////////////
+                BANNER1 ENDS
+///////////////////////////////////////////////// */
+
+/*////////////////////////////////////////////////
+                BANNER2 STARTS
+///////////////////////////////////////////////// */
+
+.banner2 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner2-content {
+    flex: 1 1 45%;
+}
+
+.banner2-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #E9DDFF;
+    color: #6B2CF5;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.banner2-content h1 {
+    font-size: 2.6em;
+    line-height: 1.2;
+    font-weight: 800;
+    margin: 20px 0 30px;
+}
+
+.banner2-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.banner2-list li {
+    display: flex;
+    align-items: flex-start;   
+    gap: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.banner2-list li.bold {
+    font-weight: 700;
+}
+
+.banner2-list i {
+    margin-top: 5px;
+    flex-shrink: 0;
+}
+
+.banner2-pic {
+    flex: 1 1 55%;
+}
+
+.banner2-pic img {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;             
+    margin-left: auto;         
+}
+
+/*////////////////////////////////////////////////
+                BANNER2 ENDS
+///////////////////////////////////////////////// */
+
+/*////////////////////////////////////////////////
+                BANNER3 STARTS
+///////////////////////////////////////////////// */
+
+.banner3 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner3-pic {
+    flex: 1 1 55%;
+}
+
+.banner3-pic img {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;          
+}
+
+.banner3-content {
+    flex: 1 1 45%;
+}
+
+.banner3-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #E9DDFF;
+    color: #6B2CF5;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.banner3-content h1 {
+    font-size: 2.8em;
+    line-height: 1.2;
+    font-weight: 800;
+    margin: 20px 0 30px;
+}
+
+.banner3-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.banner3-list li {
+    display: flex;
+    align-items: flex-start; 
+    gap: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.banner3-list i {
+    margin-top: 5px;
+    flex-shrink: 0;
+}
+
+/*////////////////////////////////////////////////
+                BANNER3 ENDS
+///////////////////////////////////////////////// */
+
+/*////////////////////////////////////////////////
+                BANNER4 STARTS
+///////////////////////////////////////////////// */
+
+.banner4 {
+    width: 100%;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    background-color: #EEF1F7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner4-head {
+    text-align: center;
+}
+
+.banner4-head h1 {
+    font-size: 2.4em;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.banner4-head p {
+    font-size: 1.1em;
+}
+
+/* ---------- Toggle ---------- */
+
+.banner4-toggle {
+    display: flex;
+    width: fit-content;
+    margin: 40px auto 70px;
+    padding: 4px;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+}
+
+.banner4-toggle button {
+    border: none;
+    background: transparent;
+    color: #9CA0AC;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 12px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.banner4-toggle button.active {
+    background: #111827;
+    color: #fff;
+}
+
+/* ---------- Plans grid ---------- */
+
+.banner4-plans {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    align-items: start;
+}
+
+/* ---------- Card (default: plain white, no blue) ---------- */
+
+.plan {
+    position: relative;
+    background: #fff;
+    border: 3px solid #fff;                 
+    box-shadow: 0 0 0 1px #e5e7eb;          
+    border-radius: 10px;
+    padding: 22px;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.25s ease-in;
+}
+
+.plan h2 {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 2.6em;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.price span {
+    font-size: 0.4em;
+}
+
+/* ---------- Button (default: outlined) ---------- */
+
+.btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.85em;
+    font-weight: 700;
+    padding: 14px 10px;
+    background: #fff;
+    color: #0066FF;
+    border: 2px solid #0066FF;
+    border-radius: 3px;
+    margin-bottom: 28px;
+    transition: 0.25s ease-in;
+}
+
+/* ---------- Feature list ---------- */
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.plan li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85em;
+    margin-bottom: 12px;
+}
+
+.plan li.main {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.plan li.off {
+    color: #9CA0AC;
+    text-decoration: line-through;
+}
+
+/* ---------- Top blue label (hidden by default) ---------- */
+
+.plan-label {
+    position: absolute;
+    top: -37px;
+    left: -3px;
+    right: -3px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0066FF;
+    color: #fff;
+    font-size: 0.75em;
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+    opacity: 0;
+    transform: translateY(8px);
+    pointer-events: none;
+    transition: 0.25s ease-in;
+}
+
+/* ---------- HOVER EFFECT (all 4 cards) ---------- */
+
+.plan:hover,
+.plan:focus-within {
+    border-color: #0066FF;                
+    box-shadow: 0 10px 30px rgba(0, 102, 255, 0.18);
+    border-top-left-radius: 0;              
+    border-top-right-radius: 0;
+}
+
+.plan:hover .plan-label,
+.plan:focus-within .plan-label {
+    opacity: 1;                            
+    transform: translateY(0);
+}
+
+.plan:hover .btn,
+.plan:focus-within .btn {
+    background: #0066FF;                  
+    color: #fff;
+}
+
+.plan .btn:hover {
+    background: #0044cc;                    
+    border-color: #0044cc;
+}
+
+/*////////////////////////////////////////////////
+                BANNER4 ENDS
+///////////////////////////////////////////////// */
+
+/*////////////////////////////////////////////////
+                QUESTIONS STARTS
+///////////////////////////////////////////////// */
+
+.questions {
+    width: 100%;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    background-color: #EEF1F7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.questions-head {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.questions-head h1 {
+    font-size: 2.6em;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.questions-head p {
+    font-size: 0.95em;
+}
+
+.questions-head a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.questions-head a:hover {
+    text-decoration: underline;
+}
+
+.questions-list {
+    max-width: 510px;
+    margin: 0 auto;
+}
+
+.question-item {
+    padding: 18px 0;
+    border-bottom: 1px solid #d5d9e2;
+    outline: none;
+    cursor: pointer;
+}
+
+.question-item:last-child {
+    border-bottom: none;
+}
+
+.question-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.question-title h3 {
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.question-title i {
+    font-size: 0.75em;
+    transition: transform 0.3s ease;
+}
+
+.question-answer {
+    display: grid;
+    grid-template-rows: 0fr;               
+    opacity: 0;
+    transition: grid-template-rows 0.35s ease, opacity 0.3s ease;
+}
+
+.question-answer-inner {
+    overflow: hidden;
+    min-height: 0;
+}
+
+.question-answer p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.question-item:hover .question-answer,
+.question-item:focus-within .question-answer {
+    grid-template-rows: 1fr;             
+    opacity: 1;
+}
+
+.question-item:hover .question-title i,
+.question-item:focus-within .question-title i {
+    transform: rotate(180deg);             
+}
+
+/*////////////////////////////////////////////////
+                QUESTIONS ENDS
+///////////////////////////////////////////////// */
+
+/*////////////////////////////////////////////////
+                CTA STARTS
+///////////////////////////////////////////////// */
+
+.banner6 {
+    width: 100%;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    background-color: #EEF1F7;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner6 h1 {
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.banner6-text {
+    max-width: 430px;
+    margin: 0 auto 40px;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+
+.banner6-form {
+    display: flex;
+    width: 100%;
+    max-width: 295px;
+    margin: 0 auto 22px;
+    border: 2px solid #0066FF;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.banner6-form input {
+    flex: 1;
+    min-width: 0;                
+    border: none;
+    outline: none;
+    padding: 0 12px;
+    font-size: 0.8em;
+    font-family: inherit;
+}
+
+.banner6-form button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background: #0066FF;
+    color: #fff;
+    font-family: inherit;
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 14px 18px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.banner6-form button:hover {
+    background: #0044cc;
+}
+
+.banner6-points {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px 22px;
+    font-size: 0.75em;
+}
+
+.banner6-points li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.banner6-points li + li::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #000;
+}
+
+/*////////////////////////////////////////////////
+                CTA ENDS
+///////////////////////////////////////////////// */
+
+/*////////////////////////////////////////////////
+                FOOTER STARTS
+///////////////////////////////////////////////// */
+
+.footer1 {
+    width: 100%;
+    background-color: #111827;
+    color: #fff;
+    padding: 30px 35px 80px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer1-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2.2fr 1.4fr 1.2fr 1fr 1fr;   
+    gap: 30px;
+    align-items: start;
+}
+
+.footer1-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.footer1-logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    color: #111827;
+    border-radius: 7px;
+    font-size: 0.8em;
+}
+
+.footer1-brand p {
+    max-width: 250px;
+    margin-top: 28px;
+    font-size: 0.8em;
+    line-height: 1.3;
+}
+
+.footer1-col h4 {
+    font-size: 0.95em;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.footer1-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer1-col li {
+    margin-bottom: 10px;
+}
+
+.footer1-col a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.82em;
+    transition: 0.2s ease-in;
+}
+
+.footer1-col a:hover {
+    color: #6fa8ff;
+    padding-left: 4px;
+}
+
+/*////////////////////////////////////////////////
+                FOOTER ENDS
 ///////////////////////////////////////////////// */

@@ -1,3 +1,17 @@
+@media (max-width: 1150px) {
+    .banner4-plans {
+        gap: 16px;
+    }
+
+    .plan {
+        padding: 18px;
+    }
+
+    .price {
+        font-size: 2.2em;
+    }
+}
+
 @media (max-width: 900px){
 
     /* ---------- HEADER STARTS ---------- */
@@ -226,13 +240,132 @@
 
     /*////////////////// BENEFITS STRTS*/
 
-    .box{
+    .boxs{
         width: 350px;
         height: 250px;
         padding: 10px 20px;
         padding-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     /*////////////////// BENEFITS ENDS*/
+    
+    /*////////////////// TEMPLTES STRTS*/
+    
+    .template-content{
+        width: 90vw;
+    }
+    .template-content h1{
+        font-size: 2em;
+    }
+    
+    .templates{
+        padding: none;
+        margin: none;
+    }
+
+    .template-main img{
+        width: 180px;
+        height: 260px;
+    }
+
+    /*////////////////// TEMPLTES ENDS*/
+
+    /*////////////////// INTRGRATION STARTS */
+    
+    .intregration{
+        width: 90%;
+    }
+    .intregration-content h1{
+        font-size: 0.5em;
+    }
+    /*////////////////// INTRGRATION ENDS */
+
+    /*/////////////////  FEATURES STARTS */
+
+    .blue {
+        padding: 24px;
+        gap: 24px;
+    }
+
+    .video-content h1 {
+        font-size: 1.6em;
+    }
+
+    .video-content p {
+        font-size: 0.95em;
+    }
+
+    /*/////////////////  FEATURES ENDS */
+
+    .banner1 {
+        gap: 30px;
+        padding: 10px;
+    }
+
+    .banner1-content h1 {
+        font-size: 2em;
+    }
+
+    .banner2 {
+        gap: 30px;
+        padding: 10px;
+    }
+
+    .banner2-content h1 {
+        font-size: 2em;
+    }
+
+    .banner3 {
+        gap: 30px;
+        padding: 10px;
+    }
+
+    .banner3-content h1 {
+        font-size: 2em;
+    }
+
+    .banner4-plans {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 56px 20px;                    
+    }
+
+    .banner4-head h1 {
+        font-size: 2em;
+    }
+
+    .questions-head h1 {
+        font-size: 2.2em;
+    }
+
+    .questions-list {
+        max-width: 600px;
+    }
+
+    .banner6 {
+        padding: 60px 20px;
+    }
+
+    .banner6 h1 {
+        font-size: 2.4em;
+    }
+
+    .footer1 {
+        padding: 40px 24px 60px;
+    }
+
+    .footer1-inner {
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 36px;
+    }
+
+    .footer1-brand {
+        grid-column: 1 / -1;         
+    }
+
+    .footer1-brand p {
+        max-width: 400px;
+    }
 
 }
 
@@ -254,7 +387,212 @@
 
     .widget-content p {
         max-width: 320px;
-        margin: 0 auto;           /* centre the list */
+        margin: 0 auto;          
+    }
+
+    .template-main img{
+        width: 140px;
+        height: 200px;
+    }
+
+    .intregration{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 80%;
+    }
+
+    .intregration-content{
+        width: 65vw;
+    }
+
+    .intre-pic img{
+        width: 70vw ;
+        height: 39vh;
+    }
+
+    .blue {
+        flex-direction: column;
+        text-align: center;
+        gap: 24px;
+    }
+
+    .video-content,
+    .v-video {
+        flex: none;
+        width: 100%;
+    }
+
+    .v-video {
+        max-width: 100%;
+    }
+
+    .video-content img {
+        margin: 12px auto 0;  
+    }
+
+    .banner1 {
+        flex-direction: column;
+        gap: 24px;
+        margin: 20px auto;
+    }
+
+    .banner1-pic,
+    .banner1-content {
+        flex: none;
+        width: 100%;
+    }
+
+    .banner1-pic img {
+        margin: 0 auto;
+        max-width: 380px;
+    }
+
+    .banner1-content {
+        text-align: center;
+    }
+
+    .banner1-content h1 {
+        font-size: 1.7em;
+        margin: 16px 0 20px;
+    }
+
+    .banner1-list li {
+        text-align: left;      
+    }
+
+    .banner2 {
+        flex-direction: column;
+        gap: 24px;
+        margin: 20px auto;
+    }
+
+    .banner2-content,
+    .banner2-pic {
+        flex: none;
+        width: 100%;
+    }
+
+    .banner2-content {
+        text-align: center;
+    }
+
+    .banner2-content h1 {
+        font-size: 1.7em;
+        margin: 16px 0 20px;
+    }
+
+    .banner2-list li {
+        text-align: left;      
+    }
+
+    .banner2-pic img {
+        margin: 0 auto;
+        max-width: 420px;
+    }
+
+    .banner3 {
+        flex-direction: column;
+        gap: 24px;
+        margin: 20px auto;
+    }
+
+    .banner3-pic,
+    .banner3-content {
+        flex: none;
+        width: 100%;
+    }
+
+    .banner3-pic img {
+        margin: 0 auto;
+        max-width: 420px;
+    }
+
+    .banner3-content {
+        text-align: center;
+    }
+
+    .banner3-content h1 {
+        font-size: 1.8em;
+        margin: 16px 0 20px;
+    }
+
+    .banner3-list li {
+        text-align: left;      
+    }
+
+    .banner4 {
+        padding: 40px 14px;
+    }
+
+    .banner4-head h1 {
+        font-size: 1.6em;
+    }
+
+    .banner4-head p {
+        font-size: 1em;
+    }
+
+    .banner4-toggle {
+        margin: 30px auto 56px;
+    }
+
+    .banner4-toggle button {
+        padding: 10px 14px;
+    }
+
+    .banner4-plans {
+        grid-template-columns: 1fr;
+        max-width: 380px;
+        row-gap: 56px;
+    }
+
+    .questions {
+        padding: 40px 16px;
+    }
+
+    .questions-head {
+        margin-bottom: 36px;
+    }
+
+    .questions-head h1 {
+        font-size: 1.6em;
+    }
+
+    .questions-head p {
+        font-size: 0.9em;
+    }
+
+    .question-title h3 {
+        font-size: 0.95em;
+    }
+
+    .question-answer p {
+        font-size: 0.9em;
+    }
+
+    .banner6 {
+        padding: 50px 16px;
+    }
+
+    .banner6 h1 {
+        font-size: 1.7em;
+    }
+
+    .banner6-text {
+        font-size: 0.9em;
+        margin-bottom: 30px;
+    }
+
+    .banner6-form {
+        max-width: 340px;
+    }
+
+    .banner6-form button {
+        padding: 14px 14px;
+    }
+
+    .footer1-inner {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -281,4 +619,95 @@
     .benefit-content h1{
         line-height: 1.5;
     }
+
+    .video {
+        padding: 20px 12px;
+    }
+
+    .blue {
+        padding: 20px 16px;
+        border-radius: 12px;
+    }
+
+    .video-content h1 {
+        font-size: 1.4em;
+    }
+
+    .video-content img {
+        width: 75px;
+    }
+
+     .banner1-content h1 {
+        font-size: 1.4em;
+    }
+
+    .banner1-list li {
+        font-size: 0.95em;
+    }
+
+    .banner2-content h1 {
+        font-size: 1.4em;
+    }
+
+    .banner2-list li {
+        font-size: 0.95em;
+    }
+
+    .banner3-content h1 {
+        font-size: 1.5em;
+    }
+
+    .banner3-list li {
+        font-size: 0.95em;
+    }
+
+    .plan:focus {
+        border-color: #0066FF;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .plan:focus .plan-label {
+        opacity: 1;
+        transform: none;
+    }
+
+    .plan:focus .btn {
+        background: #0066FF;
+        color: #fff;
+    }
+
+    .banner6-form {
+        flex-direction: column;
+    }
+
+    .banner6-form input {
+        padding: 14px 12px;
+    }
+
+    .banner6-form button {
+        justify-content: center;
+    }
+
+    .banner6-points {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner6-points li + li::before {
+        display: none;    
+    }
+
+    .footer1 {
+        padding: 36px 18px 50px;
+    }
+
+    .footer1-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .footer1-col h4 {
+        margin-bottom: 12px;
+    }
 }
+
