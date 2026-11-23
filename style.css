@@ -1452,3 +1452,19 @@ nav a:hover{
 /*////////////////////////////////////////////////
                 FOOTER ENDS
 ///////////////////////////////////////////////// */
+
+.line{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+}
+
+.afterfoot{
+    background-color: #EEF1F7;
+    height: 10vh;
+    color: #6fa8ff;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
